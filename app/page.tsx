@@ -199,8 +199,8 @@ export default function Home() {
       <footer className="w-full py-6 bg-[#0f172a] border-t border-gray-800">
         <div className="max-w-5xl mx-auto px-4 text-center">
           <div className="flex items-center justify-center gap-2 mb-4">
-            <Clock className="h-5 w-5 text-[#6366f1]" />
-            <span className="text-xl font-bold text-[#6366f1]">Chrono Widget</span>
+          <Image alt="src" width={130} height={130} src='/icon128.png' className="h-8 w-8 text-[#6366f1]" />
+          <span className="text-xl font-bold text-[#6366f1]">Chrono Widget</span>
           </div>
           <p className="text-sm text-gray-400">© {new Date().getFullYear()} Chrono Widget. All rights reserved.</p>
         </div>
